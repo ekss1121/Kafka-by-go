@@ -76,5 +76,7 @@ func main() {
 
 	if want != got {
 		log.Fatalf("The expected sum %d is not align with the received sum %d", want , got)
+	} else {
+		log.Printf("The test has passed!\n")
 	}
 }
